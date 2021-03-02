@@ -27,5 +27,5 @@ app.use('/api', apiRoutes);
 app.use(express.static(path.join(__dirname , 'public')));
 
 // SERVIDOR WEB
-app.listen(3000, () => console.log("Servidor iniciado..."));
+app.listen(PORT, () => console.log("Servidor iniciado..."));
 
