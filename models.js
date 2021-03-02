@@ -1,3 +1,6 @@
+const mongoose = require('mongoose');
+
+
 const Directivo = mongoose.model('Directivo',
   new mongoose.Schema({ nombre: String, apellidos: String })
 );
